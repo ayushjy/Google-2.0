@@ -5,7 +5,8 @@ import {API_KEY,CONTEXT_KEY} from "../keys"
 import Response from "../Response";
 import SearchResults from '@/components/SearchResults';
 
-const Search = ({results}) => {
+const Search = ({results,startIndex}) => {
+  console.log(startIndex)
 const router = useRouter();
   return (
     <div>
